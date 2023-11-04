@@ -1,2 +1,18 @@
-backup
-.Brewfile.lock.json
+### all ignore ###
+/*
+/.**
+
+### not ignore ###
+!/.config/zsh/**
+!/.config/starship.toml
+!/.config/vscode.code-profile
+!/install_scripts/.Brewfile
+!/install_scripts/asdf.sh
+!/install_scripts/gh.sh
+!/install_scripts/git.sh
+!/install_scripts/install.sh
+!/install_scripts/link.sh
+
+!/.gitignore
+!/LICENSE
+!/README.md
