@@ -1,2 +1,2 @@
 ln -s ~/dotfiles/.zprofile ~/
-ln -s dotfiles/.zshrc ~/
+ln -s ~/dotfiles/.zshrc ~/
