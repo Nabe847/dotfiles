@@ -1,9 +1,9 @@
 set +e
-rm -rf ./backup/link
-mkdir -p ./backup/link
+rm -rf ./backup/.config
+mkdir -p ./backup/.config/zsh
 
-mv ~/.zprofile ./backup/link 2>/dev/null
-ln -s ~/dotfiles/.zprofile ~/
+mv ~/.zprofile ./backup/.config/zsh 2>/dev/null
+ln -s ~/dotfiles/.config/zsh/.zprofile ~/
 
-mv ~/.zshrc ./backup/link 2>/dev/null
-ln -s ~/dotfiles/.zshrc ~/
+mv ~/.zshrc ./backup/.config/zsh 2>/dev/null
+ln -s ~/dotfiles/.config/zsh/.zshrc ~/

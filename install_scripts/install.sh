@@ -22,5 +22,3 @@ echo "Creating symbolic links"
 
 echo "Creating GitHub CLI aliases"
 ./gh.sh
-
-exec $SHELL -l
