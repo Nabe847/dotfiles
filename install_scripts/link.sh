@@ -1,5 +1,6 @@
 set +e
-mkdir -p ./backup
+rm -rf ./backup/link
+mkdir -p ./backup/link
 
 mv ~/.zprofile ./backup/ 2>/dev/null
 ln -s ~/dotfiles/.zprofile ~/

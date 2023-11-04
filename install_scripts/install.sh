@@ -15,12 +15,12 @@ which /opt/homebrew/bin/brew >/dev/null 2>&1 && brew bundle --file ./.Brewfile -
 which brew >/dev/null 2>&1 && brew cleanup --verbose
 
 echo "Installing programming laguages"
-./_asdf.sh
+./asdf.sh
 
 echo "Creating symbolic links"
-./_link.sh
+./link.sh
 
 echo "Creating GitHub CLI aliases"
-./_gh.sh
+./gh.sh
 
 exec $SHELL -l

@@ -14,14 +14,14 @@ My home dotfiles
 
    ```bash
    git clone https://github.com/Nabe847/dotfiles.git
-   cd dotfiles
+   cd dotfiles/install_scripts
    ```
 
 1. Install
 
    ```bash
-   chmod u+x setup.sh _asdf.sh _gh.sh _link.sh
-   ./setup.sh
+   chmod u+x setup.sh asdf.sh gh.sh link.sh
+   ./install.sh
    ```
 
 1. Import Visual Studio Code Profile
