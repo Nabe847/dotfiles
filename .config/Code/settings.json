@@ -1,0 +1,230 @@
+{
+  "prettier.printWidth": 80,
+  "prettier.useTabs": false,
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  "prettier.quoteProps": "as-needed",
+  "prettier.trailingComma": "all",
+  "prettier.bracketSpacing": true,
+  "prettier.arrowParens": "always",
+  "prettier.resolveGlobalModules": true,
+  "prettier.documentSelectors": ["*.js"],
+
+  "workbench.tree.indent": 16,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorCustomizations": {
+    "editorLineNumber.activeForeground": "#00ff00",
+    "terminalCursor.background": "#A7A7A7",
+    "terminalCursor.foreground": "#A7A7A7",
+    "terminal.background": "#0f0909",
+    "terminal.foreground": "#ffffff",
+    "terminal.ansiBlack": "#191919",
+    "terminal.ansiBlue": "#0018ec",
+    "terminal.ansiBrightBlack": "#5F5A60",
+    "terminal.ansiBrightBlue": "#639EE4",
+    "terminal.ansiBrightCyan": "#0cf8e1",
+    "terminal.ansiBrightGreen": "#6bdf59",
+    "terminal.ansiBrightMagenta": "#B888E2",
+    "terminal.ansiBrightRed": "#f72d2d",
+    "terminal.ansiBrightWhite": "#FFFFFF",
+    "terminal.ansiBrightYellow": "#fff8bb",
+    "terminal.ansiCyan": "#00ffe541",
+    "terminal.ansiGreen": "#27a713",
+    "terminal.ansiMagenta": "#B888E2",
+    "terminal.ansiRed": "#ec0d3a",
+    "terminal.ansiWhite": "#ffffff",
+    "terminal.ansiYellow": "#ebd726"
+  },
+  // https://www.reddit.com/r/Jetbrains/comments/q7q1ff/any_way_to_replace_the_angular_icons_with_nestjs/idofb6d/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+  "material-icon-theme.activeIconPack": "nest",
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.rightClickBehavior": "paste",
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.fontFamily": "Cica, Cascadia Code",
+  "terminal.integrated.fontSize": 15,
+
+  "editor.accessibilitySupport": "off",
+  "editor.columnSelection": false,
+  "editor.cursorBlinking": "expand",
+  "editor.fontFamily": "Cica, Cascadia Code",
+  "editor.fontSize": 15,
+  "editor.formatOnPaste": true,
+  "editor.mouseWheelZoom": true,
+  "editor.renderControlCharacters": true,
+  "editor.renderWhitespace": "all",
+  "editor.suggestSelection": "first",
+  "editor.codeActionsOnSave": { "source.sortImports": true },
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // "[sql]": {
+  //   "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+  // },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
+  "explorer.experimental.fileNesting.enabled": true,
+  "explorer.experimental.fileNesting.expand": true,
+  "explorer.experimental.fileNesting.patterns": {
+    "*.js": "$(capture).test.js"
+  },
+  "files.autoSave": "onFocusChange",
+  "files.eol": "\n",
+  "files.exclude": {
+    "**/.code-workspace": true
+    // "node_modules/": true
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.implementationsCodeLens.enabled": true,
+  "typescript.inlayHints.parameterNames.enabled": "literals",
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  "html.format.extraLiners": "",
+  "html.format.indentInnerHtml": true,
+  "html.format.wrapLineLength": 0,
+  "html.format.endWithNewline": true,
+  "html.format.enable": false,
+
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "breadcrumbs.enabled": true,
+  "extensions.ignoreRecommendations": false,
+  "todo-tree.tree.showScanModeButton": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "npm.enableRunFromFolder": true,
+  "debug.inlineValues": "off",
+  "jestrunner.configPath": "./jest.config.js",
+  "redhat.telemetry.enabled": false,
+  "notebook.diff.enablePreview": false,
+  "vsintellicode.sql.completionsEnabled": false,
+  "sql-formatter.uppercase": true,
+  "scm.autoReveal": false,
+  "yaml.format.enable": false,
+  "editor.bracketPairColorization.enabled": true,
+  "gitlens.advanced.messages": {
+    "suppressGitMissingWarning": true
+  },
+  "debug.javascript.unmapMissingSources": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tokenColorCustomizations": {
+    "strings": "#FF0000",
+    "numbers": "#FF0000"
+  },
+  "emmet.showExpandedAbbreviation": "inMarkupAndStylesheetFilesOnly",
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "other": "on",
+      "strings": "on"
+    },
+    "editor.snippetSuggestions": "top"
+  },
+  "[go]": {
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": false
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "githubPullRequests.queries": [
+    {
+      "label": "Waiting For My Review",
+      "query": "is:open review-requested:${user}"
+    },
+    {
+      "label": "Assigned To Me",
+      "query": "is:open assignee:${user}"
+    },
+    {
+      "label": "Created By Me",
+      "query": "is:open author:${user}"
+    }
+  ],
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "window.commandCenter": true,
+  "githubPullRequests.pullBranch": "never",
+  "markdown.marp.enableHtml": true,
+  "editor.suggest.showWords": false,
+  "editor.tabSize": 2,
+  "go.toolsManagement.autoUpdate": true,
+  "editor.minimap.enabled": false,
+  "githubPullRequests.createOnPublishBranch": "never",
+  "editor.suggest.preview": true,
+  "yaml.schemas": {},
+
+  // 以下 BlockMan 推奨設定
+  "editor.inlayHints.enabled": "off",
+  "editor.wordWrap": "on",
+  "diffEditor.wordWrap": "off",
+  "editor.guides.indentation": false,
+  "editor.guides.bracketPairs": false,
+  "blockman.n05CustomColorOfDepth0": "none",
+
+  "markdown.marp.themes": [
+    "/Users/p150/ghq/github.com/TeamAidemy/document-md/study-meeting/progress-csv-v2/styles/base.css"
+  ],
+  "files.watcherExclude": {
+    "**/.bloop": true,
+    "**/.metals": true,
+    "**/.ammonite": true
+  },
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "typescript": true
+  },
+  "github.copilot.advanced": {
+    "listCount": 10
+  },
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js, ${capture}.test.ts"
+  },
+  "workbench.editor.enablePreviewFromCodeNavigation": true,
+  "workbench.editor.enablePreviewFromQuickOpen": true,
+  "workbench.editor.untitled.hint": "hidden",
+  "security.workspace.trust.untrustedFiles": "open",
+
+  "git.openRepositoryInParentFolders": "never",
+  "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:.'\",<>?",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "editor.rename.enablePreview": false,
+  "gitlens.graph.layout": "editor",
+  "workbench.colorTheme": "Dracula",
+  "terminal.integrated.scrollback": 10000,
+  "workbench.editor.empty.hint": "hidden"
+}
