@@ -20,7 +20,6 @@ My home dotfiles
 1. Install
 
    ```bash
-   chmod u+x setup.sh asdf.sh gh.sh link.sh
    ./install.sh
    ```
 

@@ -22,3 +22,6 @@ echo "Creating symbolic links"
 
 echo "Creating GitHub CLI aliases"
 ./gh.sh
+
+echo "Setup Git Global Config"
+./git.sh
