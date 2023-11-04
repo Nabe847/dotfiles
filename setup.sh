@@ -20,7 +20,7 @@ echo "Installing programming laguages"
 echo "Creating symbolic links"
 ./_link.sh
 
-echo "Creating GitHub CLI aliases
+echo "Creating GitHub CLI aliases"
 ./_gh.sh
 
 exec $SHELL -l
