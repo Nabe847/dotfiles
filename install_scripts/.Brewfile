@@ -1,5 +1,4 @@
 cask_args appdir: "/Applications"
-cask "docker"
 
 brew 'git'
 brew 'gh'
