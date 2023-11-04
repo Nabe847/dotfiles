@@ -24,8 +24,9 @@ My home dotfiles
    ```
 
 1. Import Visual Studio Code Profile
-Import the profiles in `dotfiles/.config/vscode.code-profile`.
-[How to import profiles](https://code.visualstudio.com/docs/editor/profiles#_import)
+
+   Import the profiles in `dotfiles/.config/vscode.code-profile`.
+   [(How to import profiles)](https://code.visualstudio.com/docs/editor/profiles#_import)
 
 ## Components
 
