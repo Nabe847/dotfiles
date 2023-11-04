@@ -22,7 +22,10 @@ My home dotfiles
    ```bash
    ./setup.sh
    ```
-1. Setup Visual Studio Code (manual)
+
+1. Import Visual Studio Code Profile
+Import the profiles in `dotfiles/.config/vscode.code-profile`.
+[How to import profiles](https://code.visualstudio.com/docs/editor/profiles#_import)
 
 ## Components
 
