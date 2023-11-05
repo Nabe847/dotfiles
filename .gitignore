@@ -1,9 +1,13 @@
 ### all ignore ###
-/*
-/.**
+*
 
 ### not ignore ###
-!/.config/zsh/**
+!/.config
+!/.config/asdf
+!/.config/asdf/.default-python-packages
+!/.config/zsh
+!/.config/zsh/.zprofile
+!/.config/zsh/.zshrc
 !/.config/starship.toml
 !/.config/vscode.code-profile
 !/bin/.Brewfile
