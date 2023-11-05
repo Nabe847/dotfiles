@@ -10,3 +10,4 @@ autoload -U compinit
 compinit
 fpath+=~/.zfunc
 
+. /opt/homebrew/opt/asdf/libexec/asdf.sh

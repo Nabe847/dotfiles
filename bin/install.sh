@@ -9,7 +9,7 @@ which /opt/homebrew/bin/brew >/dev/null 2>&1 && brew upgrade --verbose
 which /opt/homebrew/bin/brew >/dev/null 2>&1 && brew bundle --file ./.Brewfile --verbose
 which brew >/dev/null 2>&1 && brew cleanup --verbose
 
-./asdf.sh
 ./link.sh
+./asdf.sh
 ./gh.sh
 ./git.sh
