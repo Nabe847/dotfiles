@@ -1,17 +1,17 @@
 ### all ignore ###
-/*
+/bin/**
 /.**
 
 ### not ignore ###
 !/.config/zsh/**
 !/.config/starship.toml
 !/.config/vscode.code-profile
-!/install_scripts/.Brewfile
-!/install_scripts/asdf.sh
-!/install_scripts/gh.sh
-!/install_scripts/git.sh
-!/install_scripts/install.sh
-!/install_scripts/link.sh
+!/bin/.Brewfile
+!/bin/asdf.sh
+!/bin/gh.sh
+!/bin/git.sh
+!/bin/install.sh
+!/bin/link.sh
 
 !/.gitignore
 !/LICENSE

@@ -14,7 +14,7 @@ My home dotfiles
 
    ```bash
    git clone https://github.com/Nabe847/dotfiles.git
-   cd dotfiles/install_scripts
+   cd dotfiles/bin
    ```
 
 1. Install
